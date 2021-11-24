@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FINSOFT-Contacto</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ledger&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6e4577e2dd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="indexx.html"> <img src="img/logorecortado.png" /> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="indexx.html">INICIO</a></li>
+            <li><a href="about.html">ACERCA</a></li>
+            <li><a href="IVA.html">CALCULAR</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACTO</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Contactanos</h1>
+    </section>
+
+    <!-- ------contact us ----- -->
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.036319484898!2d-99.1772493223631!3d19.454000845105273!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cdffeaf6b0a85d%3A0xb6ad4ff925a0d906!2sCentro%20Estudios%20Cient%C3%ADficos%20y%20Tecnol%C3%B3gicos%20(CECyT%209)%20%22Juan%20de%20Dios%20B%C3%A1tiz%22!5e0!3m2!1ses-419!2smx!4v1637355390756!5m2!1ses-419!2smx"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa fa-home"></i>
+            <span>
+              <h5>Mar Mediterráneo 227, Nextitla, Miguel Hidalgo, 11420, CDMX</h5>
+              <p>Lunes a Viernes de 13:00 a 21:00 </p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-phone"></i>
+            <span>
+              <h5>55-7182-7503</h5>
+              <h5>55-3719-2909</h5>
+              <h5>55-7720-3965</h5>
+              <p>Lunes a Domingo de 10:00 a 23:00</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+              <h5>finsoft8@gmail.com</h5>
+              <p>Envía tus dudas o comentarios</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="form-handler.php" method="POST">
+            <input
+              type="text"
+              name="name"
+              placeholder="Ingresa tu Nombre"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Ingresa tu correo electronico"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Ingresa tu materia"
+              required
+            />
+            <textarea
+              rows="8"
+              name="message"
+              placeholder="Mensaje"
+              required
+            ></textarea>
+            <button type="submit" class="hero-btn red-btn">
+              Enviar mensaje
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!------ Footer------->
+
+    <section class="footer">
+      <h4>Acerca de nosotros</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt <br />
+        obcaecati impedit provident? Ipsum distinctio rem enim possimus?
+      </p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>hecho con <i class="fa fa-heart-o"></i> por estudiantes mexicanos</p>
+    </section>
+
+    <!-- ------JavaScript para ocultar el menu ----- -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

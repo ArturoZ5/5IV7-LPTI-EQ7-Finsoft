@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio Page</title>
+    <link rel="stylesheet" href="style2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ledger&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6e4577e2dd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="indexx.html"> <img src="img/logorecortado.png" /> </a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+
+          <ul>
+            <li><a href="indexx.html">INICIO</a></li>
+            <li><a href="about.html">ACERCA</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACTO</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Courses</h1>
+    </section>
+
+    <!-- ------Course ----- -->
+
+
+    <section class="course">
+
+      <h1>Características que ofrecemos</h1>
+      <p>Actualmente estamos trabajando para ampliar nuestro catalogo de funcionalidades </p>
+    
+    <div class="row">
+    
+      <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Impedit deleniti praesentium ad dignissimos, 
+          sunt rerum omnis veritatis at alias soluta!</p>
+      </div>
+      <div class="course-col">
+        <h3>Degree</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Impedit deleniti praesentium ad dignissimos, 
+          sunt rerum omnis veritatis at alias soluta!</p>
+      </div>
+      <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          Impedit deleniti praesentium ad dignissimos, 
+          sunt rerum omnis veritatis at alias soluta!</p>
+      </div>
+    </div>
+    
+    </section>
+    
+
+    <!------ Facilities ------->
+
+    <section class="facilities">  
+      <h1>Nuestras Facilidades</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dicta?</p>
+      
+      <div class="row">
+        <div class="facilities-col">
+          <img src="img/personal_finance.svg" alt="">
+          <h3>World Class Library</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Explicabo dicta deleniti officia. Est, tempore explicabo.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="img/personal_finance.svg" alt="">
+          <h3>Largest Play Ground</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Explicabo dicta deleniti officia. Est, tempore explicabo.</p>
+        </div>
+        <div class="facilities-col">
+          <img src="img/personal_finance.svg" alt="">
+        <h3>Tasty and Healthy Food</h3>   
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Explicabo dicta deleniti officia. Est, tempore explicabo.</p>
+        </div>
+      </div>
+      
+      
+      </section>
+      
+
+    <!------ Footer------->
+
+    <section class="footer">
+      <h4>Acerca de nosotros</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt <br />
+        obcaecati impedit provident? Ipsum distinctio rem enim possimus?
+      </p>
+
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>hecho con <i class="fa fa-heart-o"></i> por estudiantes mexicanos</p>
+    </section>
+
+    <!-- ------JavaScript para ocultar el menu ----- -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
