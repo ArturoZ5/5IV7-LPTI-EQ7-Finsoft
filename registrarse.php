@@ -10,7 +10,7 @@
     ></script>
 
     <title>Registrarse</title>
-    <link rel="stylesheet" href="stylereg.css" />
+    <link rel="stylesheet" href="CSS/stylereg.css" />
   </head>
   <body>
     <div class="container">
@@ -31,87 +31,47 @@
               <p class="social-text">Volver</p>
             </a>
 
-            <!-- <div class="social-media">
-              <a href="#" class="social-icon">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-google"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div> -->
           </form>
 
-          <form action="" class="sign-up-form" id="form">
+          <!-- ------- form para registrarse ----- -->
+
+
+          <form action="PHP/registro_usuario_be.php" method="POST" class="sign-up-form" id="form">
+
             <h2 class="title">Registrarte</h2>
-
-         
-              <div class="input-field" >
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Usuario" id="username" />
-              <i class="formulario__validacion-estado fas fa-times-circle"></i>
-
-              </div>
-
-             
 
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" placeholder="Nombre" id="nombre" />
-            
+              <input type="text" placeholder="Nombre Completo" id="username" name="nombre_completo" />
             </div>
 
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="text" placeholder="hola@winterfell.com" id="email" />
-              
-              
+             
+            </i>
+              <input type="text" placeholder="hola@winterfell.com" class="mail" id="mail" name="correo" />
+              <span class="error" aria-live="polite"></span>
+            </div>
+
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Nombre de Usuario" id="nombre" name="usuario"/>
             </div>
 
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Contraseña" id="password" />
-              
-
+              <input type="password" placeholder="Contraseña" id="password" name="contrasena"/>
             </div>
 
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Contraseña" id="password2" />
-              
-
-            </div>
             
+            <button type="submit" class="btn">Registrarse</button>
 
-            <!-- <a href="index.html"
-              ><input type="button" value="Registrarte" class="btn"
-            /></a> -->
-            <!-- <input type="button" value="Registrarte" class="btn"> -->
-            <button type="submit" class="btn"> Registrarse </button>
-            
             <a href="indexx.html">
               <p class="social-text">Volver</p>
             </a>
-            <!--  <div class="social-media">
-              <a href="#" class="social-icon">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-google"></i>
-              </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div> -->
+           
           </form>
+
         </div>
       </div>
       <div class="panels-container">
@@ -119,8 +79,8 @@
           <div class="content">
             <h3>¿Nuevo aquí?</h3>
             <p>
-              ¡Únete a esta familia de jovenes preocupados por su futuro financiero
-              que va creciendo poco a poco!
+              ¡Únete a esta familia de jovenes preocupados por su futuro
+              financiero que va creciendo poco a poco!
             </p>
             <button class="btn transparent" id="sign-up-btn">
               Crear cuenta nueva
@@ -147,7 +107,8 @@
         </div>
       </div>
     </div>
-    <script src="validar.js"></script>
-    <script src="reginicapp.js"></script>
+    <script src="JS/validar.js"></script>
+
+    <script src="JS/reginicapp.js"></script>
   </body>
 </html>

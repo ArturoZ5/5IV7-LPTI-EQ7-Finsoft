@@ -1,67 +1,62 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  
-  
-  .form-register {
-    width: 400px;
-    background: #AA956F;
-    padding: 30px;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-  }
-  
-  .form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-  
-  .controls {
-    width: 100%;
-    background: #ffffff;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #1f53c5;
-    color: #000000;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    text-decoration-color: black;
-  }
-  
-  .imagelogo{
-    align-content: center;
-    padding: 0;
-    width: 70px;
-    transform: rotateY(-180deg);
-    rotateY:(-180deg);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ledger", serif;
 }
 
-  
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .form-register a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
+
+
+
+.form-register {
+  width: 400px;
+  background: #aa956f;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: "Ledger";
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: none;
+  color: #000000;
+  font-family: "Ledger";
+  font-size: 18px;
+  text-decoration-color: black;
+}
+
+
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .form-register .botons {
   width: 100%;
   background: #000000;
@@ -71,59 +66,29 @@
   margin: 16px 0;
   font-size: 16px;
 
-  text-decoration:none;
+  text-decoration: none;
   font-weight: 600;
   font-size: 20px;
 
-  padding-top:15px;
-  padding-bottom:15px;
-  padding-left:40px;
-  padding-right:40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
 
   border-width: 3px;
-  border-radius:35px;
-
+  border-radius: 35px;
 }
 
-ul{
+/* ul{
   list-style-type: none;
   background-color: #23272D;
   overflow: hidden;
   margin: 50px;
   padding: 10px;
-}
+} */
 
-li{
-  float: left;
-}
-li a{
-  display: block;
-  color: #fee9e1;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  text-align: center;
-  padding: 26px;
-  text-decoration: none;
-}
-li a:hover{
-  background-color: #AA956F;
-}
 
-.p1{
-
-  display: block;
-  color: #fee9e1;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
-  text-align: center;
-  padding: 40px;
-  text-decoration: none;
-
-}
-
-option{
-
+option {
   color: #000000;
-  font-family: Arial, Helvetica, sans-serif;
-
+  font-family: "Ledger";
 }
