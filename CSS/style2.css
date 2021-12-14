@@ -498,3 +498,20 @@ h3 {
   
 }
 
+section.titulos{
+  text-align: center;
+  font-family: inherit;
+  top: 10%;
+  bottom: 0;
+  text-transform: uppercase;
+  padding-top: 3em;
+}
+
+section.subtitulos{
+
+  padding-top: 5%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+

@@ -18,12 +18,14 @@
             alert("Usuario almacenado exitosamente");
             window.location = "../registrarse.php";
         </script>
-        ';
+        ':
     }else{
+        echo '
         <script> 
             alert("Inténtalo de nuevo, usuario no almacenado exitosamente");
             window.location = "../registrarse.php";
         </script>
+        ';
     }
 
     mysqli_close($conexion);
